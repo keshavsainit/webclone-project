@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  
+<style>
+
+    
+
+    body{
+        background-image: url(./background-image.png);
+        background-size: auto;
+        background-position: center;
+       
+
+    }
+     
+    .nav-items { 
+        display: inline-block;
+        margin: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+        
+        }
+
+        .nav-bar{
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+            
+        }
+
+        .car-laon{
+            position: absolute;
+  display: flex;
+  align-items: center;
+  width: 110px;
+  justify-content: space-between ;
+  padding: 10px 15px;
+  border-radius: 30px;
+  left: 45%;
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 1px 1px 20px grey;
+
+  }
+
+  .home-loan{
+    position: absolute;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 30px;
+    right: 19%;
+    top: 25%;
+    border: none;
+    box-shadow: 10px 10px 50px grey;
+
+ 
+  }
+
+
+
+
+         
+
+  .logo-png{
+position: absolute;
+top: 0px;
+left: 10px
+
+  }    
+
+  .website-slogan{
+     position: relative;
+     top: 50px;
+     left: 19px;
+     font-size: 70px;
+
+    
+  }
+
+  .slogan-dis{
+
+    position: relative;
+    top: 50px;
+    left: 40px;
+    }  
+
+    .contact-button{
+        position: relative;
+        top: 60px;
+       display: flex;
+       gap: 30px;
+        margin-left: 50px;
+       
+    }
+
+    .apply{
+        background-color: rgb(233, 31, 99);
+        color: #ffffff;
+        
+        border-color: rgb(240, 120, 194);
+        padding: 10px 29px;
+        border-radius: 10px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+       
+        
+    }
+  
+    .call{
+        background-color: transparent;
+        border-color: rgb(233, 60, 141);
+        color: rgb(233, 60, 141); ;
+        font-weight: bolder;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+          
+    
+    .call-button{
+        position: absolute;
+        display: flex;
+        justify-content:center ;
+        margin-top: 140px;
+        gap: 6px;
+        align-items: center;
+        left: 7%;
+
+
+    }
+
+    .contact{
+        display: flex;
+        gap: 7px;
+       text-align: center;
+       font-weight: bold;
+       
+   
+  
+       
+        
+    }
+
+    
+    .search-icon{
+        position: absolute;
+        top: 20px;
+        right: 96px;
+    }        
+     
+     .search-text{
+        position: absolute;
+        top: 1px;
+        right: 15px;
+        background-color: rgb(235, 64, 158);
+        padding: 5px;
+        border-radius: 10px;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+
+     .main-png{
+        position: absolute;
+        top: 50px;
+        width: 800px;
+        right: 20px;
+        
+     }
+    
+    
+
+</style>
+
+<body>
+    
+    <div class="full-page">
+        <!-- nav bar  -->
+
+        <nav class="nav-bar">
+            <ul>
+                <li class="nav-items">HOME</li>
+                <li class="nav-items">BLOG</li>
+                <li class="nav-items">ABOUT US</li>
+                <li class="nav-items">COVID 19</li>
+                <li class="nav-items">CORPORET</li>
+            </ul>
+        </nav>
+        
+        <p class="car-laon"><span><img src="./car.png" alt=""></span>  Car Loan</p>
+        
+        <!-- left section -->
+        <section class="right-section">
+            <div class="logo-png">
+                <img class="logo-png" src="website-logo.png" alt="website logo">
+            </div>
+
+             <div class="website-slogan">
+                <h1 class="website-slogan">
+                    Chase Your <br>
+                    Dream With Us
+                </h1>
+             </div>
+
+             <p class="slogan-dis">
+                The harder you work for somthing,the <br>
+                greator you"ll feel when you achive it
+             </p>
+
+             <div class="contact-button">
+                <button class="apply">Apply Online</button>
+                <button class="call">Loan Colcultor</button>
+             </div>
+
+             <div class="call-button">
+                <p class="contact"><span><img src="phone.png" alt=""></span> 1659</p>
+                <p class="facebook"><span><img src="facebook.png" alt="">
+                </span></p>
+                <p><img src="linkedin.png" alt=""></p>
+                <p><img src="youtube.png" alt=""></p>
+                <p><img src="instagram.png" alt=""></p>
+            </div>
+                
+        </section>
+
+        <!-- right section -->
+        <section class="right-section">
+            <div class="search-button">
+                <span><img class="search-icon" src="search-icon.png" alt=""></span>
+                <p class="search-text">I service</p>
+            </div>
+
+            <div class="main-png">
+                <img class="main-png "src="hero-image.png" alt="">
+            </div>
+
+            <div class="home-loan">
+                <p class="car-laon"><span><img src="House.png" alt=""></span> Home Loan</p>
+                
+            </div>
+        </section>
+
+    </div>
+     
+
+
+</body>
+</html>
